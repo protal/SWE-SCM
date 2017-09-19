@@ -23,7 +23,6 @@ public class input {
 		System.out.println("Employee Number : " + empNum);
 		System.out.println("total : " + realSalary);
 		
-		
 	}
 	
 
