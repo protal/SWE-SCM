@@ -17,6 +17,7 @@ public class input {
 		double sale = in.nextInt();
 		
 		
+		
 		salary salaly1 = new salary() ;
 		double realSalary =  salaly1.calSalary(salaly,sale);
 		System.out.println("Employee Name : " + empName);
