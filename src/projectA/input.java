@@ -8,13 +8,13 @@ public class input {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		System.out.print("Salaly : ");
-		System.out.println("Sale : ");
 		double salaly = in.nextInt();
+		System.out.print("Sale : ");
 		double sale = in.nextInt();
 		
-		salaly salaly = new salaly() ;
-		double realSalary =  salaly.calSalaly();
-		System.out.println("total : " + );
+		salary salaly1 = new salary() ;
+		double realSalary =  salaly1.calSalary(salaly,sale);
+		System.out.println("total : " + realSalary);
 		
 	}
 	
