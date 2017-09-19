@@ -4,9 +4,9 @@ public class salary {
 	public double calSalary(double salary ,double sale)
 	{
 		double commission; 
-		if(sale > 50000)
+		if(sale > 100000)
 			commission = 3;
-		else if(sale > 25000)
+		else if(sale > 50000)
 			commission = 2;
 		else
 			commission = 1;
