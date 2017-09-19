@@ -11,6 +11,10 @@ public class salary {
 		else
 			commission = 1;
 		commission =  sale * commission / 100 ;
-		return salary + commission ;
+		
+		if(salary + commission < 18000)
+			return commission = 18000;
+		else 
+			return salary + commission ;
 	}
 }
